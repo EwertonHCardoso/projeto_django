@@ -24,6 +24,7 @@ def home(request):
 
 def blog(resquest):
     print('blog')
+    print('teste')
     return HttpResponse('blog')
 
 urlpatterns = [
