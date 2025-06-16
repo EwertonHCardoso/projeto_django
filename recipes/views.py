@@ -3,8 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    print('home')
-    return HttpResponse('home2')
+    return render(request, 'home.html')
 
 def sobre(request):
     print('sobre')
