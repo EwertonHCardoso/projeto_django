@@ -5,6 +5,3 @@ from django.http import HttpResponse
 def home(request):
     return render(request, 'recipes/home.html', context={'name': 'Ewerton Hoffmann Cardoso'})
 
-def sobre(request):
-    return render(request,'recipes/sobre.html')
-
